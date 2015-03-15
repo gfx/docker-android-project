@@ -1,8 +1,9 @@
 # Dockerfile for Android Projects
 
 This is a Dockerfile to make minumum images for Android projects.
+No `ant`, `maven`, nor `android-ndk` are included.
 
-## Features
+## Included
 
 * JDK 8
 * Android SDK with android support libraries and google play services

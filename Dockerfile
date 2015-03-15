@@ -19,7 +19,7 @@ ENV ANDROID_SDK /usr/local/android-sdk-linux
 ENV PATH ${ANDROID_HOME}/tools:$ANDROID_HOME/platform-tools:$PATH
 
 # Install Android SDK components
-ENV ANDROID_SDK_COMPONENTS platform-tools,build-tools,android-22,extra-android-support,extra-google-google_play_services
+ENV ANDROID_SDK_COMPONENTS platform-tools,build-tools,android-22,extra-android-m2repository,extra-google-m2repository
 RUN echo y | android update sdk --no-ui --all --filter "${ANDROID_SDK_COMPONENTS}"
 
 # Support Gradle
