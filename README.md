@@ -1,3 +1,3 @@
-# Dockerfile for Android Project
+# Dockerfile for Android Projects
 
-https://registry.hub.docker.com/u/gfx2015/android/
+This is a Dockerfile to support Android projects with JDK8 and Android SDK.
