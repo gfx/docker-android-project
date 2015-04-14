@@ -6,7 +6,15 @@ No `ant`, `maven`, nor `android-ndk` are included.
 ## Included
 
 * JDK 8
-* Android SDK with android support libraries and google play services
+* Android SDK
+* Android Support Libraries
+* Google Play Services
+
+## Maintainance
+
+* Just rebuild it for minor updates
+* Update components for major updates
+  * You can find component ids by `android list sdk --all --extended`
 
 # Author
 
