@@ -6,9 +6,8 @@ MAINTAINER FUJI Goro <g.psy.va+github@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install dependencies
-RUN dpkg --add-architecture i386 && \
-    apt-get update && \
-    apt-get install -yq libstdc++6:i386 zlib1g:i386 libncurses5:i386 --no-install-recommends && \
+RUN apt-get update && \
+    apt-get install -yq libstdc++6 zlib1g libncurses5 --no-install-recommends && \
     apt-get clean
 
 # Download and untar SDK
