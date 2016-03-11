@@ -5,7 +5,7 @@ No `ant`, `maven`, nor `android-ndk` are included.
 
 ## Included
 
-* JDK 8
+* OpenJDK 8
 * Android SDK
 * Android Support Libraries
 * Google Play Services
