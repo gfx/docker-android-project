@@ -19,8 +19,11 @@ ENV ANDROID_SDK /usr/local/android-sdk-linux
 ENV PATH ${ANDROID_HOME}/tools:$ANDROID_HOME/platform-tools:$PATH
 
 # Install Android SDK components
-ENV ANDROID_COMPONENTS platform-tools,build-tools-23.0.2,android-23,extra-android-m2repository
-ENV GOOGLE_COMPONENTS extra-google-m2repository
+
+# License Id: android-sdk-license-ed0d0a5b
+ENV ANDROID_COMPONENTS platform-tools,build-tools-23.0.2,android-23
+# License Id: android-sdk-license-5be876d5
+ENV GOOGLE_COMPONENTS extra-android-m2repository,extra-google-m2repository
 
 RUN echo y | android update sdk --no-ui --all --filter "${ANDROID_COMPONENTS}" ; \
     echo y | android update sdk --no-ui --all --filter "${GOOGLE_COMPONENTS}"
