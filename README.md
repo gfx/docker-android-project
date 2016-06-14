@@ -1,6 +1,6 @@
 # Dockerfile for Android Projects
 
-This is a Dockerfile to make minumum images for Android projects.
+This is a Dockerfile to make minimum images for Android projects.
 No `ant`, `maven`, nor `android-ndk` are included.
 
 ## Included
