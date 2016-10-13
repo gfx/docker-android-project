@@ -1,5 +1,5 @@
 # based on https://registry.hub.docker.com/u/samtstern/android-sdk/dockerfile/ with openjdk-8
-FROM openjava:8
+FROM openjdk:8
 
 MAINTAINER FUJI Goro <g.psy.va+github@gmail.com>
 
